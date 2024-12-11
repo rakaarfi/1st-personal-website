@@ -1,0 +1,47 @@
+{
+    "projects": [
+        {
+            "title": "Netflix's Changing Landscape: Exploring the Trend of Shorter Movie Durations",
+            "url": "https://rakaarfi.medium.com/netflixs-changing-landscape-exploring-the-trend-of-shorter-movie-durations-d8929e9353cb",
+            "desc": "Here you'll find my analysis of Netflix Movie duration from time to time.",
+            "bg_img": "/netflix_background.jpg",
+            "type": "article"
+        },
+        {
+            "title": "Introduction to Data Analyst",
+            "url": "https://rakaarfi.medium.com/introduction-to-data-analytics-82287f5cf390",
+            "desc": "Here you'll find a brief overview about data analytics.",
+            "bg_img": "/data_background.jpg",
+            "type": "article"
+        },
+        {
+            "title": "Extracting News Titles, Dates, and Links Using BeautifulSoup: A Python Guide",
+            "url": "https://rakaarfi.medium.com/extracting-news-titles-dates-and-links-using-beautifulsoup-a-python-guide-d6a70e2adc7d",
+            "desc": "Here you'll find my scraping of a news website.",
+            "bg_img": "/scraping_background.jpg",
+            "type": "article"
+        },
+        {
+            "title": null,
+            "url": "https://www.youtube.com/embed/neY2QzsjQF0",
+            "desc": null,
+            "bg_img": null,
+            "type": "video"
+        },
+        {
+            "title": null,
+            "url": "https://www.youtube.com/embed/gKac3Ao-aaU",
+            "desc": null,
+            "bg_img": null,
+            "type": "video"
+        },
+        {
+            "title": null,
+            "url": "https://www.youtube.com/embed/9R3igJqykGw",
+            "desc": null,
+            "bg_img": null,
+            "type": "video"
+        }
+    ]
+}
+
