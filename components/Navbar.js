@@ -50,7 +50,7 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="bg-[#612222] text-slate-100 p-4 sm:p-6 md:flex md:justify-between md:items-center z-[9999]">
+        <nav className="bg-[#612222] text-slate-100 p-4 sm:p-6 md:flex md:justify-between md:items-center z-[9999] fixed top-0 left-0 w-full">
             <div className="container mx-auto flex justify-between items-center" id="navbarNav">
                 <a className='text-2xl font-bold'>Raka Arfi</a>
 

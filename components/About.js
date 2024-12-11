@@ -1,6 +1,6 @@
 export default function About() {
     return (
-            <div className="flex">
+            <div className="flex mt-10">
                 <figure className="rounded-xl p-8 mx-auto">
                     <img className="w-52 h-52 rounded-full" src="/raka_arfi.jpg" alt="Photo_Profile" width="384" height="512"></img>
                     <div className="pt-6 space-y-4">
