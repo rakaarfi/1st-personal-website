@@ -56,7 +56,7 @@ export const Navbar = () => {
 
                 {/* Navbar Desktop */}
                 <div className="hidden md:flex">
-                {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+                {['Home', 'About', 'Projects', 'Contact'].map((item, index) => (
                     <Link key={index} className="mx-2 hover:text-gray-300" href={`#${item.toLowerCase()}`}>
                         {item}
                     </Link>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                             variants={menuVariants}
                         >
                             <ul>
-                                {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+                                {['Home', 'About', 'Projects', 'Contact'].map((item, index) => (
                                     <motion.li
                                         key={index}
                                         variants={itemVariants}

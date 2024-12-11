@@ -10,12 +10,13 @@ import data from '../data.json'
 export default function Home() {
   return (
     <LoadingWrapper>
-      <nav>
+      <nav id='home'>
         <Navbar />
       </nav>
       <div className="items-center justify-items-center sm:p-5 font-[family-name:var(--font-geist-sans)]">
-        <main className="items-center min-h-screen">
+        <main id='about' className="items-center min-h-screen">
           <About />
+          <div id='projects'>
           {data.projects.map((project, i) => {
             if (project.type === 'article') {
               return (
@@ -28,12 +29,10 @@ export default function Home() {
               )
             }
           })
-
           }
-          <div className="flex gap-4 items-center flex-col sm:flex-row">
           </div>
         </main>
-        <footer className="flex flex-wrap justify-center gap-6 py-10">
+        <footer id='contact' className="flex flex-wrap justify-center gap-6 py-10">
           <Footer />
         </footer>
       </div>
