@@ -43,12 +43,6 @@ const footer_data = [
         "img": BiLogoMediumSquare,
         "color": "transition-all hover:scale-110 duration-150 h-[60%] w-[60%] hover:text-[#000000]"
     },
-    // {   
-    //     "name": "Email",
-    //     "href": "mailto:0oWt9@example.com",
-    //     "img": MdOutlineEmail,
-    //     "color": "transition-all hover:scale-110 duration-150 h-[50%] w-[50%] hover:text-[#000000]"
-    // }
 ]
 
 export default function Footer({}) {
